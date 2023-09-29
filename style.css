@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -22,7 +21,7 @@ a {
 }
 
 .container {
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 .sp-bt {
@@ -31,7 +30,6 @@ a {
   align-items: center;
 }
 header {
-  position: sticky;
   top: 0;
 }
 
@@ -40,14 +38,42 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-
 }
 
 header nav ul li {
-  font-size: 2rem;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 120;
   padding: 1rem;
 }
 header nav ul li a {
   color: #000;
+}
+header nav ul li a div {
+  width: 35px;
+  height: 3px;
+  background-color: #000;
+  margin: 6px 0;
+}
+
+.sec-bg {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+}
+section div div p {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+section div div button {
+  background-color: white;
+  height: 60px;
+  width: 180px;
+  border: none; 
+}
+section div div img {
+  height: 280px;
+  width: 250px;
+  border-radius: 50%;
 }
