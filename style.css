@@ -67,7 +67,7 @@ header nav ul li a div {
   align-items: center;
   height: 400px;
 }
-section div div p {
+.herrotitle {
   font-size: 3rem;
   margin-bottom: 50px;
 }
@@ -81,4 +81,13 @@ section div div img {
   height: 280px;
   width: 250px;
   border-radius: 50%;
+}
+.service{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem ;
+}
+.serins{
+  margin: 2rem;
 }
